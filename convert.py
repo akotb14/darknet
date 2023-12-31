@@ -18,7 +18,7 @@ from keras.layers import LeakyReLU
 from keras.layers import BatchNormalization
 from keras.models import Model
 from keras.regularizers import l2
-from keras.utils.vis_utils import plot_model as plot
+from keras.utils import plot_model as plot
 
 
 parser = argparse.ArgumentParser(description='Darknet To Keras Converter.')
